@@ -1,0 +1,3 @@
+[submodule "app/src/main/cpp/file-transfer-protocol"]
+	path = app/src/main/cpp/file-transfer-protocol
+	url = https://github.com/peshk1n/file-transfer-protocol
