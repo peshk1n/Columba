@@ -11,6 +11,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Columba">
+
+        <activity android:name=".ui.test.TestTransferActivity" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

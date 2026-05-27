@@ -6,7 +6,8 @@ set(CMAKE_CXX_STANDARD 17)
 add_subdirectory(file-transfer-protocol)
 
 add_library(${CMAKE_PROJECT_NAME} SHARED
-    native-lib.cpp)
+        jni_transfer_session.cpp
+)
 
 target_link_libraries(${CMAKE_PROJECT_NAME}
     file-transfer-protocol
